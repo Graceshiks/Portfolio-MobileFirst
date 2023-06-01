@@ -183,7 +183,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](Graceshiks/Portfolio-MobileFirst/issues/).
+Feel free to check the https://github.com/microverseinc/curriculum-html-css/issues.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
