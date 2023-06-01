@@ -26,7 +26,7 @@ After you're finished please remove all the comments and instructions!
   <img src="./Mobile first photos/grce logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio-MobileFirst</b></h3>
+  <h3><b>Portfolio</b></h3>
 
 </div>
 
@@ -49,9 +49,8 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-MobileFirst <a name="about-project"></a>
-> I created Portfolio-MobileFirst using HTML and CSS. This is my first milestone at microverse.
-
+# 📖 Portfolio <a name="about-project"></a>
+> This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
@@ -60,9 +59,17 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Key Features
+
+- Use the Figma design for the project😊👌
+ - Use the semantics elements💯
+-  Use the linter for fixing errors .🚀
+- Use the flexbox to place the items 😃👍
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
 
 
 To get a local copy up and running, follow these steps.
@@ -71,24 +78,80 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-1.Web browser.
 
-2.Code editor.
+Example command:
 
+```sh
+1.use a browser
+2.use cable internet
+```
+ 
 
 ### Setup
+
 Clone this repository to your desired folder:
 
-Run this commands:
+
+Example commands:
 
 ```sh
   
-  git clone git@github.com:Graceshiks/Portfolio-MobileFirst.git
-```sh
+  git clone  git@github.com:Graceshiks/Portfolio-MobileFirst.git
   cd Portfolio-MobileFirst
-   
+
+
 ```
 
+
+### Install
+
+Install this project with:
+
+
+Example command:
+
+```sh
+  npm install
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+
+Example command:
+
+```sh
+- Open the index with live server.
+- Or if you don't have a live server extension open the index in the browser by clicking on the file .
+```
+
+
+### Run tests
+
+To run tests, run the following command:
+
+
+Example command:
+
+```sh
+npx hint .
+npx eslint .
+```
+
+
+### Deployment
+
+You can deploy this project using:
+
+- Github Pages
+- Render.com
+- Netlify.com
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
