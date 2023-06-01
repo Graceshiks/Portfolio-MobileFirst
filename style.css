@@ -3,10 +3,9 @@
 
 .container {
   min-width: 375px;
-
-  /* min-height: 718px;? */
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #aab0b9;
 }
 
 * {
@@ -22,10 +21,7 @@
   justify-content: space-between;
   align-items: center;
   min-height: 48px;
-  background-color: #fff;
-
-  /* margin: 0 25px; */
-  padding-right: 25px;
+  margin: 0 30px;
 }
 
 .logo {
@@ -56,6 +52,7 @@
   padding: 125px 24px;
   border-bottom-left-radius: 15%;
   background-image: url(header-shapes\ mobile.png);
+  background-color: white;
 }
 
 .title {
