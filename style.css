@@ -54,6 +54,7 @@
   border-bottom-left-radius: 15%;
   background-image: url(header-shapes\ mobile.png);
   background-color: white;
+  background-position: center;
 }
 
 .title {
@@ -106,6 +107,7 @@
   justify-content: center;
   align-items: center;
   grid-column: auto;
+  background-color: #e5e5e5;
 }
 
 .proj-title {
@@ -277,14 +279,13 @@
 }
 
 .sec-3 {
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .section3-div {
-  background-color: #fff;
+  /* background-color: #fff; */
   border-top-right-radius: 15%;
-  margin-top: 10px;
-  padding-bottom: 30%;
+  padding-bottom: 40%;
 }
 
 .line {
@@ -331,16 +332,18 @@
 .proj-lan li {
   list-style-type: none;
 }
+
 /* contact section */
 .contact-me-form-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 6em 0 0 0;
+
+  /* margin: 6em 0 0 0; */
   padding: 3em;
   border-radius: 5em 0 0 0;
   background-color: #6070ff;
-  background-image: url(./assets/contact\ form\ shapes-mobile.png);
+  background-image: url(contact\ form\ shapes-mobile9.png);
   background-repeat: no-repeat;
   background-position-x: right;
 }
@@ -394,4 +397,23 @@ textarea:focus {
 
 .contact-me-form-button {
   align-self: flex-start;
+  padding: 16px 12px;
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  margin: 4px 0;
+  background: #fff;
+}
+
+.contact-me-form-button:hover {
+  color: #000;
+  background: blue;
 }
