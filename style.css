@@ -288,11 +288,12 @@
 }
 
 .line {
-  display: flex;
+  /* display: flex; */
   margin: 0 24px;
   width: 327px;
   color: #dfe1e6;
   height: 1px;
+  float: left;
 }
 
 .img {
