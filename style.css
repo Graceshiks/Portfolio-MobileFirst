@@ -3,8 +3,9 @@
 
 body {
   background-color: #f7f5f5;
-  min-width: 375px;
+  min-width: 100%;
   align-items: center;
+  overflow-x: hidden;
 }
 
 * {
@@ -123,6 +124,7 @@ body {
   align-items: center;
   grid-column: auto;
   min-width: 375px;
+  overflow-x: hidden;
 }
 
 .second-sec-div1 {
