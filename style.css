@@ -105,7 +105,6 @@ body {
   animation-duration: 4s;
   animation-fill-mode: forwards;
   animation-name: none;
-  
 }
 
 .social-media-icon {
@@ -579,14 +578,13 @@ textarea:focus {
   .title {
     font-size: 48px;
     max-width: 920px;
-    
   }
 
   @keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50% { background-color: blue; }
+    100% { background-color: green; }
   }
 
   .second-section {
