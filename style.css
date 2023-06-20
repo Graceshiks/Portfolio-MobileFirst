@@ -3,7 +3,7 @@
 
 body {
   background-color: #f7f5f5;
-  min-width: 100%;
+  /* min-width: 100%; */
   align-items: center;
   overflow-x: hidden;
 }
@@ -14,6 +14,8 @@ body {
   box-sizing: border-box;
   background-repeat: no-repeat;
   font-family: 'poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
 .intro-section {
@@ -22,13 +24,20 @@ body {
 }
 
 .topnav {
-  display: flex;
+  display:flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
 }
 
 .menu {
+  display: none;
+}
+.mobile-menu {
+  display: none;
+}
+
+.Desktop-nav{
   display: none;
 }
 
@@ -550,19 +559,44 @@ textarea:focus {
 
 @media only screen and (min-width: 768px) {
   /* for desktop */
-  body {
-    max-width: 100%;
-  }
+ 
 
   .intro-section {
     max-height: 916px;
   }
 
   .topnav {
-    max-height: 48px;
-    min-width: 1440px;
+    display: none;
+
+  }
+  .Desktop-nav{
+    display: flex;
+    min-width: 100vw;
+    min-height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
   }
 
+
+.Desktop-menu-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+.Desktop-logo{
+  font-family: 'poppins', sans-serif;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 20px;
+  line-height: 74%;
+  font-weight: 700;
+  color: #6070ff;
+}
+   
   .first-section {
     background-image: url(Header\ bg@2x.png);
     min-width: 1440px;
